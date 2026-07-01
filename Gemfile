@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "4.0.5"
+ruby "3.2.9"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "7.1.3.2"
@@ -67,3 +67,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "image_processing", "~> 1.2"
+
+gem 'bootstrap', '~> 5.3.8'
+gem 'dartsass-sprockets'
